@@ -23,6 +23,7 @@ const getCompanyOverview = async (symbol) => {
     }
 }
 
+
 const searchBySymbol = async (keywords) => {
     const url = 'https://www.alphavantage.co/query';
     const requestfunction = 'SYMBOL_SEARCH';
@@ -45,4 +46,4 @@ const searchBySymbol = async (keywords) => {
 }
 
 getCompanyOverview();
-// searchBySymbol();
+searchBySymbol();
